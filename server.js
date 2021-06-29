@@ -6,7 +6,6 @@ import "dotenv-defaults/config.js";
 import path from "path";
 import { dirname } from "path";
 import { fileURLToPath } from "url";
-
 import mongo from "./backend/src/mongo.js";
 import apiRoute from "./backend/routes/api/index.js";
 
