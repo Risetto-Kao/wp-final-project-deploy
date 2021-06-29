@@ -10,8 +10,7 @@ import dotenv from 'dotenv-defaults';
 
 import mongo from "./backend/src/mongo.js";
 import apiRoute from "./backend/src/routes/api/index.js";
-import wakeUpDyno from "./backend/src/route/wakeUpDyno.js";
-
+import wakeUpDyno from "./backend/src/routes/wakeUpDyno.js";
 dotenv.config();
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const port = process.env.PORT || 80;
