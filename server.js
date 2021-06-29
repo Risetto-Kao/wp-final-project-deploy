@@ -10,7 +10,7 @@ import dotenv from 'dotenv-defaults';
 
 import mongo from "./backend/src/mongo.js";
 import apiRoute from "./backend/src/routes/api/index.js";
-import wakeUpDyno from "./backend/src/routes/wakeUpDyno.js";
+// import wakeUpDyno from "./backend/src/routes/wakeUpDyno.js";
 dotenv.config();
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const port = process.env.PORT || 80;
@@ -39,7 +39,7 @@ const httpServer = http.createServer(app);
 
 
 httpServer.listen(port, () => {
-  const DYNO_URL = "https://immediate-food.heroku.com/";
-  wakeUpDyno(DYNO_URL);
+  // const DYNO_URL = "https://immediate-food.heroku.com/";
+  // wakeUpDyno(DYNO_URL);
   console.log(`🚀 Server Ready at ${port}! 🚀`);
 });
