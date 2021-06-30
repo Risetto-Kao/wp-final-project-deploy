@@ -52,5 +52,5 @@
       "last 1 safari version"
     ]
   },
-  "engines": {"node": "4.0.0"}
+  "engines": {"node":""}
 }
