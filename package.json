@@ -27,7 +27,7 @@
   },
   "scripts": {
     "start": "node server.js",
-    "build": "react-scripts build",
+    "build": "react-scripts build  && (cd backend && yarn install)",
     "start_react": "react-scripts start"
   },
   "type": "module",
