@@ -13,7 +13,7 @@ options.add_argument("headless")
 
 
 def get_coordinate(addr):
-    browser = webdriver.Chrome(executable_path='C://Users//user//Desktop//chromedriver.exe',options=options)
+    browser = webdriver.Chrome(executable_path='chromedriver',options=options)
     browser.get("http://www.map.com.tw/")
     search = browser.find_element_by_id("searchWord")
     search.clear()
