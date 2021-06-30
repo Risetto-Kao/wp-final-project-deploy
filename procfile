@@ -1,2 +1,0 @@
-web: node server.js
-worker: pip install -r ./backend/requirement.txt
